@@ -1,6 +1,5 @@
 import { FaDollarSign } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import npImg from "../../assets/images/np.png";
 import { TProduct } from "@/types";
 
 interface CardProps {
