@@ -14,8 +14,8 @@ const Banner = () => {
         <CarouselContent className="">
           <CarouselItem className="relative">
             <img
-              src=""
-              className="w-full lg:h-[100vh] h-[35vh] object-cover"
+              src="https://i.postimg.cc/sg990FHV/SLIDE-002.jpg"
+              className="w-full lg:h-[80vh] h-[40vh] object-cover"
               alt=""
             />{" "}
             <div className="absolute lg:top-[20%] top-[8%] lg:left-[100px] left-8">
@@ -36,8 +36,8 @@ const Banner = () => {
           </CarouselItem>
           <CarouselItem className="relative">
             <img
-              src=""
-              className="w-full lg:h-[100vh] h-[35vh] object-cover"
+              src="https://i.postimg.cc/Jhp3MNWv/SLIDE-003.jpg"
+              className="w-full lg:h-[80vh] h-[40vh] object-cover"
               alt=""
             />{" "}
             <div className="absolute lg:top-[20%] top-[8%] lg:left-[100px] left-8">
@@ -58,8 +58,8 @@ const Banner = () => {
           </CarouselItem>
           <CarouselItem className="relative">
             <img
-              src=""
-              className="w-full lg:h-[100vh] h-[35vh] object-cover"
+              src="https://i.postimg.cc/nz5vQnr1/SLIDE-004.jpg"
+              className="w-full lg:h-[80vh] h-[40vh] object-cover"
               alt=""
             />{" "}
             <div className="absolute lg:top-[20%] top-[8%] lg:left-[100px] left-8">

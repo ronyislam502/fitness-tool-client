@@ -35,13 +35,12 @@ const links = [
 const Footer = () => {
   return (
     <div className="mt-10">
-      <div className="flex lg:flex-row lg:gap-y-0 gap-y-5 flex-col justify-between p-[60px] bg-slate-50">
+      <div className="flex lg:flex-row lg:gap-y-0 gap-y-5 flex-col justify-between p-[60px] bg-slate-200">
         <div className="flex lg:flex-row flex-col lg:gap-x-5 lg:gap-y-0 gap-y-5">
-          <img src="FT.png" alt="" className="lg:h-[150px] w-auto" />
           <div className="space-y-2">
             <p className="text-3xl font-bold leading-0 -mt-2">
-              <span className="text-secondaryColor">Fitness</span>{" "}
-              <span className="text-primaryColor">Tools</span>
+              <span className="text-green-600">Fitness</span>{" "}
+              <span className="text-pink-700">Tools</span>
             </p>
             <p className="flex items-center gap-3">
               <FaLocationDot className="text-secondaryColor" /> Mymensingh,
@@ -82,9 +81,6 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="bg-secondaryColor text-white text-center py-5">
-        design and development by @ fitness tools
       </div>
     </div>
   );

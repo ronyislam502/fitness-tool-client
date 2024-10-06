@@ -12,7 +12,9 @@ import { router } from "./routers/routers";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <RouterProvider router={router} />
+      <div className="max-w-7xl mx-auto">
+        <RouterProvider router={router} />
+      </div>
       <ToastContainer />
     </Provider>
   </React.StrictMode>
